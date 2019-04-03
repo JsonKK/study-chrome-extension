@@ -1,0 +1,12 @@
+{
+	"manifest_version" : 2,
+	"name" : "自动回填",
+	"version" : "1.0",
+	"description" : "回填需要的",
+	"content_scripts" : [
+		{
+			"matches" : ["*://*/30668e7f8bc64e96992bbe7be26bc20a"],
+			"js" : ["js/auto-backfill.js"]
+		}
+	]
+}
